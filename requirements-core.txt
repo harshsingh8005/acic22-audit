@@ -1,0 +1,26 @@
+# Core environment. Runs software checks V3 to V6, the 3,400 cohort
+# confirmatory arm (E0, E1, E2), the neural arm (E4, E5), the OVB coverage grid,
+# all analysis, all figures, and the DoWhy cross check (E7).
+#
+# These are the versions recorded in results/RUN_LOG.md section 0, which is the
+# environment that produced every confirmatory number in the manuscript.
+# Python 3.11.0, Windows 11, CPU only.
+#
+# Install in its own virtual environment. Do not combine with
+# requirements-crosslib.txt: the two arms ran under different numpy major
+# versions. See README, "Environments".
+
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.8.0
+statsmodels==0.14.6
+matplotlib==3.10.8
+torch==2.11.0
+dowhy==0.14
+
+# Imported directly by the code but not recorded in RUN_LOG.md section 0.
+# Left unpinned rather than guessed. Pin them yourself if you need a frozen
+# environment; neither affects any reported estimate.
+joblib
+pillow

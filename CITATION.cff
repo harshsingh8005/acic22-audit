@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the manuscript below."
+title: "Analysis code: a pre-registered ground-truth audit of interval coverage and sensitivity analysis on ACIC 2022"
+authors:
+  - family-names: Singh
+    given-names: Harsh
+    orcid: "https://orcid.org/0009-0008-6367-7293"
+license: MIT
+type: software
+repository-code: "https://github.com/harshsingh8005/acic22-audit"
+preferred-citation:
+  type: article
+  title: "When the Bound Holds but the Benchmark Fails: A Pre-Registered Ground-Truth Audit of Interval Coverage and Sensitivity Analysis on ACIC 2022"
+  authors:
+    - family-names: Singh
+      given-names: Harsh
+      orcid: "https://orcid.org/0009-0008-6367-7293"
+  year: 2026
+  # Add the preprint DOI and venue here once the identifier is assigned.
+  # doi: ""

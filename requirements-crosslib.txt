@@ -1,0 +1,26 @@
+# Cross library environment. Runs only the cross library arm: E3
+# (DoubleML interactive regression model, ATTE score), E8 (EconML DRLearner),
+# the catenets replication of E4 and E5, and analyze_addendum.py.
+#
+# Per results/RUN_LOG.md section 124 this arm ran in a SEPARATE environment from
+# requirements-core.txt, at a different numpy major version. Install it in its
+# own virtual environment.
+#
+# Important: this file is a reconstruction, not a bit exact recreation of the
+# original environment. See README, "Environments", for what differs and why.
+
+numpy==2.4.6
+joblib==1.5.3
+
+doubleml==0.11.4
+econml==0.17.0
+catenets==0.2.4
+jax==0.10.2
+jaxlib==0.10.2
+
+# Shared with the core environment and pinned to the same versions.
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.8.0
+statsmodels==0.14.6
+torch==2.11.0

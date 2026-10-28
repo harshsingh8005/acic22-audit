@@ -1,0 +1,36 @@
+# Virtual environments. Never commit one: the original .venv carried Windows
+# binaries and absolute paths from the machine it was built on.
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.mypy_cache/
+.pytest_cache/
+
+# ACIC 2022 challenge data. Obtained separately; see README, "Data".
+data/
+
+# Run logs. Excluded because they record absolute paths from the machine that
+# produced them. results/RUN_LOG.md is the curated provenance record and IS
+# committed.
+logs/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+
+# OS and editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
