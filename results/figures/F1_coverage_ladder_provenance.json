@@ -1,0 +1,26 @@
+{
+  "source": "results/tables/fast_arm_estimates.csv",
+  "n_per_stratum": "200 (RCT) or 800 per Strength\u00d7Source cell",
+  "uncertainty": "Wilson 95% CI on the coverage proportion",
+  "script": "code/figures.py::f1",
+  "qa": {
+    "n_text": 42,
+    "collisions": [],
+    "n_collisions": 0,
+    "clipped": [],
+    "n_clipped": 0,
+    "min_font_pt": 6.0,
+    "figure_size_mm": [
+      180.0,
+      62.0
+    ],
+    "png_pixels": [
+      2125,
+      732
+    ],
+    "png_dpi": [
+      299.9994,
+      299.9994
+    ]
+  }
+}

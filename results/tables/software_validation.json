@@ -1,0 +1,258 @@
+{
+  "V1": {
+    "pass": true,
+    "detail": [
+      {
+        "cohort": 1,
+        "same_X": true,
+        "same_truth": true,
+        "d_aipw_att": 0.0,
+        "d_aipw_se": 0.0,
+        "d_dr_att": 0.0,
+        "d_dr_se": 0.0,
+        "same_ntrim": true
+      },
+      {
+        "cohort": 500,
+        "same_X": true,
+        "same_truth": true,
+        "d_aipw_att": 0.0,
+        "d_aipw_se": 0.0,
+        "d_dr_att": 0.0,
+        "d_dr_se": 0.0,
+        "same_ntrim": true
+      },
+      {
+        "cohort": 1000,
+        "same_X": true,
+        "same_truth": true,
+        "d_aipw_att": 0.0,
+        "d_aipw_se": 0.0,
+        "d_dr_att": 0.0,
+        "d_dr_se": 0.0,
+        "same_ntrim": true
+      },
+      {
+        "cohort": 2000,
+        "same_X": true,
+        "same_truth": true,
+        "d_aipw_att": 0.0,
+        "d_aipw_se": 0.0,
+        "d_dr_att": 0.0,
+        "d_dr_se": 0.0,
+        "same_ntrim": true
+      },
+      {
+        "cohort": 3400,
+        "same_X": true,
+        "same_truth": true,
+        "d_aipw_att": 0.0,
+        "d_aipw_se": 0.0,
+        "d_dr_att": 0.0,
+        "d_dr_se": 0.0,
+        "same_ntrim": true
+      }
+    ]
+  },
+  "V2": {
+    "pass": true,
+    "observed": {
+      "aipw": {
+        "bias_mean": 26.006655481769418,
+        "rmse": 38.792936605279984,
+        "coverage_95": 0.72,
+        "ci_width_mean": 91.5927253697657
+      },
+      "dr_att": {
+        "bias_mean": 20.683402112131695,
+        "rmse": 30.627389111018772,
+        "coverage_95": 0.74,
+        "ci_width_mean": 71.25741984006441
+      },
+      "wall_s": 74.35522670001956
+    },
+    "targets": {
+      "aipw": {
+        "bias_mean": {
+          "target": 26.007,
+          "tol": 5.0
+        },
+        "rmse": {
+          "target": 38.793,
+          "tol": 5.0
+        },
+        "coverage_95": {
+          "target": 0.72,
+          "tol": 0.1
+        },
+        "ci_width_mean": {
+          "target": 91.593,
+          "tol": 10.0
+        }
+      },
+      "dr_att": {
+        "bias_mean": {
+          "target": 20.683,
+          "tol": 5.0
+        },
+        "rmse": {
+          "target": 30.627,
+          "tol": 5.0
+        },
+        "coverage_95": {
+          "target": 0.74,
+          "tol": 0.1
+        },
+        "ci_width_mean": {
+          "target": 71.257,
+          "tol": 10.0
+        }
+      },
+      "rosenbaum": {
+        "gamma_zero_median": {
+          "target": 1.0,
+          "tol": 0.3
+        }
+      }
+    }
+  },
+  "V3": {
+    "pass": 1.0,
+    "evalue_rr3.9": 7.263034344160047
+  },
+  "V4": {
+    "pass": true,
+    "p_gamma1_mine": 6.291753519570692e-07,
+    "p_gamma1_scipy": 6.291753519570692e-07,
+    "p_by_gamma": {
+      "1.0": 6.291753519570692e-07,
+      "1.2": 3.186571159827332e-05,
+      "1.5": 0.0013250812951641222,
+      "2.0": 0.03760859577764913,
+      "3.0": 0.45725469529893925
+    },
+    "hand_case": 0.0025310160631339326
+  },
+  "V5": {
+    "pass": true,
+    "bound_at_rv": 0.0,
+    "ci_at_rva": 0.0,
+    "max_dRV_vs_dowhy": 3.0281332996651145e-14,
+    "max_dRVa_vs_dowhy": 3.320260733019609e-14,
+    "max_dEst_vs_dowhy": 7.110756428119203e-12,
+    "detail": [
+      {
+        "cohort": 1,
+        "att_ols": 43.31940546128332,
+        "dowhy_est": 43.31940546128064,
+        "rv_mine": 0.1482904898981386,
+        "rv_dowhy": 0.14829048989813712,
+        "rva_mine": 0.0682572550821389,
+        "rva_dowhy": 0.06825725508213724
+      },
+      {
+        "cohort": 2,
+        "att_ols": 7.347994081159854,
+        "dowhy_est": 7.347994081163165,
+        "rv_mine": 0.026574626010622722,
+        "rv_dowhy": 0.026574626010630927,
+        "rva_mine": 0.0,
+        "rva_dowhy": 0.0
+      },
+      {
+        "cohort": 3,
+        "att_ols": 14.821501927253115,
+        "dowhy_est": 14.821501927246004,
+        "rv_mine": 0.047648637684206296,
+        "rv_dowhy": 0.0476486376841831,
+        "rva_mine": 0.0,
+        "rva_dowhy": 0.0
+      },
+      {
+        "cohort": 4,
+        "att_ols": -23.48575133586946,
+        "dowhy_est": -23.48575133586894,
+        "rv_mine": 0.06375347048316604,
+        "rv_dowhy": 0.06375347048316618,
+        "rva_mine": 0.0,
+        "rva_dowhy": 0.0
+      },
+      {
+        "cohort": 5,
+        "att_ols": -26.081559480776686,
+        "dowhy_est": -26.08155948077612,
+        "rv_mine": 0.08574313931870921,
+        "rv_dowhy": 0.085743139318706,
+        "rva_mine": 0.0,
+        "rva_dowhy": 0.0
+      },
+      {
+        "cohort": 6,
+        "att_ols": 17.19113975750112,
+        "dowhy_est": 17.191139757504914,
+        "rv_mine": 0.05364892083224291,
+        "rv_dowhy": 0.053648920832251,
+        "rva_mine": 0.0,
+        "rva_dowhy": 0.0
+      },
+      {
+        "cohort": 7,
+        "att_ols": 61.84306100193404,
+        "dowhy_est": 61.84306100193257,
+        "rv_mine": 0.20254417624919102,
+        "rv_dowhy": 0.20254417624917642,
+        "rva_mine": 0.12780024196293358,
+        "rva_dowhy": 0.12780024196291748
+      },
+      {
+        "cohort": 8,
+        "att_ols": 17.12741152228594,
+        "dowhy_est": 17.12741152227892,
+        "rv_mine": 0.06370311550350446,
+        "rv_dowhy": 0.06370311550348656,
+        "rva_mine": 0.0,
+        "rva_dowhy": 0.0
+      },
+      {
+        "cohort": 9,
+        "att_ols": 63.13578673172515,
+        "dowhy_est": 63.13578673172435,
+        "rv_mine": 0.21855549622555281,
+        "rv_dowhy": 0.21855549622557238,
+        "rva_mine": 0.14538658018007675,
+        "rva_dowhy": 0.14538658018009826
+      },
+      {
+        "cohort": 10,
+        "att_ols": -30.070971219672003,
+        "dowhy_est": -30.07097121967584,
+        "rv_mine": 0.11460035125294482,
+        "rv_dowhy": 0.1146003512529751,
+        "rva_mine": 0.03132012943791979,
+        "rva_dowhy": 0.031320129437952995
+      }
+    ]
+  },
+  "V6": {
+    "pass": true,
+    "tarnet_att": 2.0012454986572266,
+    "dragonnet_att": 2.148951530456543,
+    "dragon_dr_att": 2.0385735876824747,
+    "dragon_dr_se": 0.11918811980787858,
+    "true": 2.0,
+    "sec_tarnet": 18.183302899997216,
+    "sec_dragonnet": 9.678134799993131,
+    "epochs": [
+      {
+        "epochs": 50,
+        "best_epoch": 8,
+        "best_val": 0.25975948572158813
+      },
+      {
+        "epochs": 50,
+        "best_epoch": 8,
+        "best_val": 0.8686668276786804
+      }
+    ]
+  }
+}

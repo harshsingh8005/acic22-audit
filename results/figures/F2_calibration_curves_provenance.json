@@ -1,0 +1,25 @@
+{
+  "source": "results/tables/fast_arm_estimates.csv",
+  "definition": "empirical = mean(|z| <= z_nominal), z=(att-truth)/se",
+  "script": "code/figures.py::f2",
+  "qa": {
+    "n_text": 36,
+    "collisions": [],
+    "n_collisions": 0,
+    "clipped": [],
+    "n_clipped": 0,
+    "min_font_pt": 7.0,
+    "figure_size_mm": [
+      180.0,
+      62.0
+    ],
+    "png_pixels": [
+      2125,
+      732
+    ],
+    "png_dpi": [
+      299.9994,
+      299.9994
+    ]
+  }
+}

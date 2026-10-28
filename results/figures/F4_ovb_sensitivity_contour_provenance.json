@@ -1,0 +1,41 @@
+{
+  "source": [
+    "results/tables/ovb_grid_E1_reduced.csv",
+    "results/tables/fast_arm_cohort.csv"
+  ],
+  "grid": [
+    0.0,
+    0.01,
+    0.02,
+    0.03,
+    0.05,
+    0.075,
+    0.1,
+    0.15,
+    0.2,
+    0.3,
+    0.5
+  ],
+  "script": "code/figures.py::f4",
+  "note": "left/middle: mean over cohorts of 1[truth in OVB-adjusted CI at (cf_y, cf_d)], white contour = 0.95; right: ECDF of the diagonal cf needed",
+  "qa": {
+    "n_text": 50,
+    "collisions": [],
+    "n_collisions": 0,
+    "clipped": [],
+    "n_clipped": 0,
+    "min_font_pt": 6.0,
+    "figure_size_mm": [
+      180.0,
+      72.0
+    ],
+    "png_pixels": [
+      2125,
+      850
+    ],
+    "png_dpi": [
+      299.9994,
+      299.9994
+    ]
+  }
+}

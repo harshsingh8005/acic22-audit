@@ -1,0 +1,26 @@
+{
+  "source": "results/tables/neural_arm_estimates.csv",
+  "n_cohorts": 170,
+  "definition": "PEHE = sqrt(mean over treated practices of (tau_hat - true practice SATT)^2); neural = 5-seed ensemble",
+  "script": "code/figures.py::f3",
+  "qa": {
+    "n_text": 18,
+    "collisions": [],
+    "n_collisions": 0,
+    "clipped": [],
+    "n_clipped": 0,
+    "min_font_pt": 6.5,
+    "figure_size_mm": [
+      180.0,
+      78.0
+    ],
+    "png_pixels": [
+      2125,
+      921
+    ],
+    "png_dpi": [
+      299.9994,
+      299.9994
+    ]
+  }
+}

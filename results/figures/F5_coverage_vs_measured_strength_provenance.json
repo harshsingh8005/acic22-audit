@@ -1,0 +1,30 @@
+{
+  "source": [
+    "results/tables/fast_arm_cohort.csv",
+    "results/tables/fast_arm_estimates.csv"
+  ],
+  "binning": "cf_y*\u00b7cf_d* == 0 as one bin (zero-inflated), quintiles of positive values (rank-based); x = bin median",
+  "note": "plan \u00a714 specified deciles of the product; 6/10 deciles were degenerate at 0, so binning was changed to 0 + quintiles(>0) (presentational; disclosed in RUN_LOG)",
+  "uncertainty": "Wilson CI (left); cohort-bootstrap 95% CI, B=1000, seed 20260818 (right)",
+  "script": "code/figures.py::f5",
+  "qa": {
+    "n_text": 31,
+    "collisions": [],
+    "n_collisions": 0,
+    "clipped": [],
+    "n_clipped": 0,
+    "min_font_pt": 6.0,
+    "figure_size_mm": [
+      180.0,
+      65.0
+    ],
+    "png_pixels": [
+      2125,
+      767
+    ],
+    "png_dpi": [
+      299.9994,
+      299.9994
+    ]
+  }
+}

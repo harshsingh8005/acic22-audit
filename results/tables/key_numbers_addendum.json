@@ -1,0 +1,80 @@
+{
+  "n_cohorts_e3e8": 3400,
+  "e8_excluded_rows": 0,
+  "E3_benchmark_by_stratum": [
+    {
+      "strength": "RCT",
+      "source": "RCT",
+      "E3_cf_y_bm": 0.0224878650298554,
+      "E3_cf_d_bm": 0.0,
+      "E3_rho_bm": -0.9980043656702744,
+      "E3_delta_theta_bm": -0.45519978171632264
+    },
+    {
+      "strength": "Strong",
+      "source": "A",
+      "E3_cf_y_bm": 0.0126632470618239,
+      "E3_cf_d_bm": 0.4372550709426532,
+      "E3_rho_bm": 0.011689211499785399,
+      "E3_delta_theta_bm": 0.38270522834528364
+    },
+    {
+      "strength": "Strong",
+      "source": "B",
+      "E3_cf_y_bm": 0.02077550625362245,
+      "E3_cf_d_bm": 0.0,
+      "E3_rho_bm": -0.2256597726877205,
+      "E3_delta_theta_bm": -0.6293167168072307
+    },
+    {
+      "strength": "Weak",
+      "source": "A",
+      "E3_cf_y_bm": 0.0171916715744484,
+      "E3_cf_d_bm": 0.304460937845883,
+      "E3_rho_bm": 0.025715689428398948,
+      "E3_delta_theta_bm": 0.5464120930066638
+    },
+    {
+      "strength": "Weak",
+      "source": "B",
+      "E3_cf_y_bm": 0.021312902949329048,
+      "E3_cf_d_bm": 0.0,
+      "E3_rho_bm": -0.29276837660228805,
+      "E3_delta_theta_bm": -0.7443166598923101
+    }
+  ],
+  "crosscheck_vs_doubleml": {
+    "n": 6800,
+    "median_abs_dRV": 5.560438477991703e-07,
+    "p90_abs_dRV": 1.4353366726291956e-06,
+    "max_abs_dRV": 1.6662892972996515e-06,
+    "median_abs_dRVa": 6.3846168579437754e-06,
+    "median_abs_dCI_lo": 5.263748056430639,
+    "p90_abs_dCI_lo": 21.76302883550937,
+    "median_rel_dsigma2": 0.0,
+    "median_rel_dnu2": 1.5475306572031943e-16,
+    "p90_rel_dnu2": 4.987356356130047e-16,
+    "frac_my_nu2_fallback": 0.12955882352941175,
+    "spearman_rv": 0.9999999999999999
+  },
+  "E8_econml_sensitivity_error_rate": {
+    "full": 0.6717647058823529,
+    "reduced": 0.6947058823529412
+  },
+  "E8_econml_rv_ate_gt0_rate(X_full)": 0.7061764705882353,
+  "n_cohorts_catenets": 170,
+  "C5_catenets_DragonNet_vs_pytorch": {
+    "n": 170,
+    "spearman_plugin_att": 0.18902058487674114,
+    "median_pehe_catenets": 44.53121872911567,
+    "median_pehe_pytorch": 60.77032158485777,
+    "mean_abs_diff_plugin_att": 23.60871896165259
+  },
+  "C4_catenets_TARNet_vs_pytorch": {
+    "n": 170,
+    "spearman_plugin_att": 0.23532220736316956,
+    "median_pehe_catenets": 44.96057025740037,
+    "median_pehe_pytorch": 61.00920988274472,
+    "mean_abs_diff_plugin_att": 21.924447043678338
+  }
+}

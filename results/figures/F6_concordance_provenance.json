@@ -1,0 +1,24 @@
+{
+  "source": "results/tables/fast_arm_estimates.csv",
+  "script": "code/figures.py::f6",
+  "qa": {
+    "n_text": 38,
+    "collisions": [],
+    "n_collisions": 0,
+    "clipped": [],
+    "n_clipped": 0,
+    "min_font_pt": 7.0,
+    "figure_size_mm": [
+      180.0,
+      60.0
+    ],
+    "png_pixels": [
+      2125,
+      708
+    ],
+    "png_dpi": [
+      299.9994,
+      299.9994
+    ]
+  }
+}
