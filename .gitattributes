@@ -1,0 +1,13 @@
+# Source and documentation normalise to LF in the repository.
+*.py    text eol=lf
+*.md    text eol=lf
+*.txt   text eol=lf
+*.cff   text eol=lf
+
+# Result artefacts are provenance records, not editable text. results/RUN_LOG.md
+# records a SHA-256 for each of these files, and a reader is expected to check
+# the published bytes against it. Any end-of-line rewriting changes those bytes
+# and breaks every recorded digest, so Git must store them verbatim.
+# These rules come last deliberately: later patterns win.
+results/tables/**   -text
+results/figures/**  -text
